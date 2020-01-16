@@ -224,7 +224,7 @@ start slave;
 
 Para verificar  
 ~~~mysql
-show slave status\G;
+show slave status;
 ~~~
 
 

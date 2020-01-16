@@ -6,11 +6,13 @@ Antes de comenzar :
 
 ## INDICE
 
-##### Instalacion
+* [Instalacion](#Instalacion)
 
 
 ***
+
 #Instalacion
+
 * instalar appserv sin mysql, en vez de usar localhost usa tu IP 10.8.71.XX
 * instalar mysql en C con el workbench opcional
 * debe tener el binlog aparece en configuracion o agregar en log_bin en my.ini

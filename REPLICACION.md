@@ -6,19 +6,28 @@ Antes de comenzar :
 
 ## INDICE
 
-* [Instalacion](#Instalacion)
+* [Instalacion AppServ](#Instalacion-AppServ)
+* [Instalacion Workbench](#Instalacion-Workbecn)
+* [Configuracion Master](#Configuracion-Master)
+* [Configuracion Slave](#Configuracion-Slave)
 
 
 ***
 
-### Instalacion
+### Instalacion AppServ
 
 * instalar appserv sin mysql, en vez de usar localhost usa tu IP 10.8.71.XX
+
+### Instalacion Workbench
+
 * instalar mysql en C con el workbench opcional
 * debe tener el binlog aparece en configuracion o agregar en log_bin en my.ini
 * cuando escojas nombre del servicio usar algo como MySQL-DEV
 * crear usuario replica como replication slave (opcional, puede hacerce mas adelante)
 * NO ARRANCAR MYSQL
+
+### Configuracion Master
+
 ***
 modificar archivo my.ini en 
 ````
@@ -31,6 +40,10 @@ agregar las bases de datos a replicar :
 binlog-do-db=basedatos1
 binlog-do-db=basedatosX
 ````
+
+### Configuracion Slave
+
+
 
 copiar la carpeta  
 ````

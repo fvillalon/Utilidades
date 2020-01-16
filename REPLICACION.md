@@ -11,7 +11,7 @@ Antes de comenzar :
 
 ***
 
-#Instalacion
+### Instalacion
 
 * instalar appserv sin mysql, en vez de usar localhost usa tu IP 10.8.71.XX
 * instalar mysql en C con el workbench opcional

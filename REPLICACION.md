@@ -1,6 +1,9 @@
+
+# [EN DESARROLLO...]
+
 # REPLICACION MASTER-SLAVE 
 
-Antes de comenzar :
+Antes de comenzar descargar:
 * [APPSERV 9.3](https://www.appserv.org/en/)
 * [MYSQL-WORKBENCH 8.0](https://dev.mysql.com/downloads/workbench/)
 
@@ -61,8 +64,6 @@ editar el archivo my.ini en nueva ruta D:\AppServ\MySQL-DEV-RPL\bin
 server-id=1 por 2
 ````
 
-***
-
 ````ini
 binlog-do-db=basedatos1
 binlog-do-db=basedatosX
@@ -90,6 +91,7 @@ arrancar mysql desde servicios  MySQL-DEV o desde comando
 ````bash
 net start MySQL-DEV
 ````
+
 
 probar entrando en phpmyadmin http://10.8.71.XX/phpmyadmin
 

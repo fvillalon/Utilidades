@@ -1,5 +1,16 @@
-## REPLICACION MASTER-SLAVE [APPSERV 9.3](https://www.appserv.org/en/)
+# REPLICACION MASTER-SLAVE 
 
+Antes de comenzar :
+* [APPSERV 9.3](https://www.appserv.org/en/)
+* [MYSQL-WORKBENCH 8.0](https://dev.mysql.com/downloads/workbench/)
+
+## INDICE
+
+##### Instalacion
+
+
+***
+#Instalacion
 * instalar appserv sin mysql, en vez de usar localhost usa tu IP 10.8.71.XX
 * instalar mysql en C con el workbench opcional
 * debe tener el binlog aparece en configuracion o agregar en log_bin en my.ini

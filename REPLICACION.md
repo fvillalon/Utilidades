@@ -17,11 +17,11 @@ Antes de comenzar descargar:
 
 ***
 
-### Instalacion AppServ
+## Instalacion AppServ
 
 * instalar appserv sin mysql, en vez de usar localhost usa tu IP 10.8.71.XX
 
-### Instalacion Workbench
+## Instalacion Workbench
 
 * instalar mysql en C con el workbench opcional
 * debe tener el binlog aparece en configuracion o agregar en log_bin en my.ini
@@ -29,9 +29,8 @@ Antes de comenzar descargar:
 * crear usuario replica como replication slave (opcional, puede hacerce mas adelante)
 * NO ARRANCAR MYSQL
 
-### Configuracion Master
+## Configuracion Master
 
-***
 modificar archivo my.ini en 
 ````
 C:\programdata\msyql-server...
@@ -44,7 +43,7 @@ binlog-do-db=basedatos1
 binlog-do-db=basedatosX
 ````
 
-### Configuracion Slave
+## Configuracion Slave
 
 
 
@@ -156,7 +155,7 @@ mysqldump -u root --all-databases --master-data=2 > /root/dbdump.db
 
 ###### *SOLO SI NO CARGA,CREAR LA BASE DE DATOS PRIMERO EN AMBOS SERVIDORES
 ***
-### CONFIGURAR MASTER
+#### CONFIGURAR MASTER
 
 Crear usuario replica (sólo si no lo creaste al inicio)
 ````
@@ -190,7 +189,7 @@ para comprobar  al lado del LOGO phpmyadmin , arriba de pestaña base de datos a
 
 ***
 
-##SLAVE
+#### SLAVE
 
 configurar SLAVE en mysql ingresar via CMD
 ~~~bash

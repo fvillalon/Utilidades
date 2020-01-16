@@ -213,6 +213,7 @@ replicate-do-db=nuevabase
 
 levantar servicios mysql
 y luego levantar slave via
+
 ~~~bash
 mysql -u root -p -P3307
 ~~~

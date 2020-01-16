@@ -223,8 +223,8 @@ start slave;
 ~~~
 
 Para verificar  
-~~~mysql
-show slave status;
+~~~bash
+show slave status\G;
 ~~~
 
 

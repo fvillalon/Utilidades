@@ -222,8 +222,8 @@ mysql -u root -p -P3307
 start slave;
 ~~~
 
-Para verificar 
-~~~
+Para verificar  
+~~~mysql
 show slave status\G;
 ~~~
 
